@@ -1,6 +1,10 @@
 This project is an end-to-end workflow built in n8n that automates the process of capturing leads from a form, storing them in Google Sheets, filtering based on their occupation, and sending personalized Gmail notifications.
 
+
+
 Features
+
+
 
  Automated Lead Capture → Collects form submissions with fields like First Name, Last Name, Email, and Occupation.
 
@@ -12,7 +16,11 @@ Features
 
  Unified Notifications → Regardless of occupation, a final summary notification is sent.
 
+ 
+
   Workflow Steps
+
+  
 
 Form Submission
 
@@ -47,6 +55,8 @@ Merges outputs from different occupation-based Gmail messages.
 Sends a general Gmail notification with the message:
 
 You have a new lead message.
+
+
 
  Technologies Used
 
@@ -88,6 +98,8 @@ Filter bypasses occupation = student
 Only final summary email: You have a new lead message
 
 
+
+
 Workflow Structure
 
 Form Submission → Google Sheets → Filter → Switch → Gmail (Doctor/Engineer) 
@@ -96,6 +108,8 @@ Form Submission → Google Sheets → Filter → Switch → Gmail (Doctor/Engine
 
  Benefits
 
+ 
+
  Eliminates manual data entry.
 
  Provides real-time lead notifications.
@@ -103,6 +117,8 @@ Form Submission → Google Sheets → Filter → Switch → Gmail (Doctor/Engine
  Ensures data consistency across Google Sheets.
 
  Easily customizable for new occupations or notification rules.
+
+ 
 
 
 Future Improvements
