@@ -1,5 +1,4 @@
-This project is an end-to-end workflow built in n8n that automates the process of capturing leads from a form, storing them in Google Sheets, filtering based on their occupation, and sending personalized Gmail notifications.
-
+This project is an end-to-end workflow built in n8n that automates the process of capturing leads from a form, storing them in Google Sheets, filtering based on their occupation, and sending personalized Gmail notifications
 
 
 Features
